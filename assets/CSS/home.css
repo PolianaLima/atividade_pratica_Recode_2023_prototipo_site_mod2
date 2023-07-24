@@ -1,0 +1,74 @@
+/*BACKGROUND - IMAGEM HOME - MENU BUSCA*/
+#bg-img-home_busca{
+	background: 
+		linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+		url("/assets/img/fundo_banner_home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	min-height: 400px;
+}
+
+
+/*BACKGROUND - IMAGEM HOME - PORQUE NOS ESCOLHER*/
+#bg-img-home_vantagens{
+	background: 
+	linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
+	url("/assets/img/fundo_home_vantagens.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px;
+min-height: 400px;
+}
+
+#bg-img-home_vantagens  .card {
+	background: none;
+}
+
+#bg-img-home_vantagens  .card  img{
+	width: 100px;
+	margin: auto;
+}
+
+
+/*CARD - COMENTARIOS*/
+#card_home_comentarios .card img{
+	width: 100px;
+	margin: auto;
+}
+
+
+/*MIDEA-QUERIES - PAGINA-HOME*/
+
+@media (max-width: 960px) { 
+
+
+	#home_lugares_visitados > .row {
+		min-width: 100% !important;
+		
+		
+	}
+
+
+	#home_lugares_visitados > .row > .col > .card{
+		min-width: 100% !important;
+		
+	}
+
+
+	#bg-img-home_vantagens > .container > .card{
+		min-width: 100%;
+	}
+
+	
+	#bg-img-home_vantagens > .container > .card > .card-body{	
+		max-width: 90%;
+		margin: auto;
+	}
+
+	#card_home_comentarios > .container .card {
+		min-width: 100%;
+	}
+
+ }
+

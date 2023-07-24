@@ -1,0 +1,36 @@
+/*MIDEA-QUERIES - PAGINA-HOME*/
+@media (max-width: 990px) { 
+	.container_banner {
+		flex-direction: column !important;
+		width: 100% !important;
+		margin-bottom: 20px;
+
+	}
+
+	.container_banner > .img{
+		width: 100% !important;
+	}
+
+	.container_banner > .img > img{
+		width: 100% !important;
+	}
+
+	.container_banner .banner_title{
+		width: 100% !important;
+		margin-bottom: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card_mobile{
+		min-width: 100%;
+		flex-direction: column !important;
+	}
+
+	.card_mobile .card_img{
+		width: 100% !important;
+	}
+
+
+
+ }

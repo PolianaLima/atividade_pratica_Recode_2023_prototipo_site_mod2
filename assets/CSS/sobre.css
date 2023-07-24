@@ -1,0 +1,16 @@
+#bg-img-sobre{
+	background: 
+		url("/assets/img/banner-quem-somos.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	min-height: 400px;
+}
+
+.bg-img-sobre-card{
+	background: 
+		url("/assets/img/image.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+}

@@ -1,0 +1,49 @@
+#fundo_contato{
+	background: 
+		linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+		url("/assets/img/fundo_contato.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+}
+
+/*MIDEA-QUERIES - PAGINA-HOME*/
+@media (max-width: 960px) { 
+	#fundo_contato  .container{
+			flex-direction: column !important;
+			min-width: 100% !important;
+			margin: 0px !important;
+			padding: 3px !important;
+	}
+
+	#fundo_contato  .container .contato_info{
+		min-width: 100% !important;
+		padding: 3px !important;
+		margin-bottom: 10px !important;
+	}
+
+	#fundo_contato  .container .contato_info h1{
+		font-size: 20px;
+		text-align: center;
+		padding: 1px !important;
+		
+	
+	}
+
+	#fundo_contato  .container .contato_info h4{
+		font-size: 18px;
+		text-align: center;
+		padding: 1px !important;
+	
+	}
+
+
+	
+	#fundo_contato > .container > .form{
+		min-width: 100% !important;
+		padding: 5px !important;
+		
+	}
+
+	
+}

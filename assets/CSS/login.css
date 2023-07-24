@@ -1,0 +1,16 @@
+/*MIDEA-QUERIES - PAGINA-HOME*/
+@media (max-width: 990px) { 
+	#formulario_login {
+		flex-direction: column !important;
+	}
+
+
+	#formulario_login > .form > form {
+		width: 100% !important;
+		margin-bottom: 10px;
+		padding: 0;
+
+	}
+
+
+ }

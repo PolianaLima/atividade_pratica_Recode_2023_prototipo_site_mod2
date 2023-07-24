@@ -1,0 +1,16 @@
+#bg-img-destino_banner{
+	background: 
+		linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+		url("/assets/img/fundo_banner_home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	min-height: 400px;
+}
+
+/*MIDEA-QUERIES - PAGINA-HOME*/
+@media (max-width: 990px) { 
+	#cards_destino > .row > .card{
+		min-width: 100%;
+	}
+ }
