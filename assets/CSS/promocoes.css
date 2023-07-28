@@ -9,6 +9,16 @@
 }
 
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: black;
+
+	margin-right: 150px;
+}
+
+
+
+
+
 /*MIDEA-QUERIES - PAGINA-HOME*/
 @media (max-width: 960px) {
 	.d-lg-flex {

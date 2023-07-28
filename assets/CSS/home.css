@@ -21,6 +21,8 @@ background-position: 0px;
 min-height: 400px;
 }
 
+
+
 #bg-img-home_vantagens  .card {
 	background: none;
 }
@@ -42,6 +44,11 @@ min-height: 400px;
 
 @media (max-width: 960px) { 
 
+	#home_lugares_visitados {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		}
 
 	#home_lugares_visitados > .row {
 		min-width: 100% !important;
