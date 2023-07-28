@@ -2,7 +2,7 @@
 #bg-img-home_busca{
 	background: 
 		linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
-		url("/assets/img/fundo_banner_home.jpg");
+		url("../img/fundo_banner_home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0px;
@@ -14,7 +14,7 @@
 #bg-img-home_vantagens{
 	background: 
 	linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
-	url("/assets/img/fundo_home_vantagens.jpeg");
+	url("../img/fundo_home_vantagens.jpeg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 0px;

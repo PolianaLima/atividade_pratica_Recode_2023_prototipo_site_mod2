@@ -1,7 +1,7 @@
 #fundo_contato{
 	background: 
 		linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
-		url("/assets/img/fundo_contato.jpg");
+		url("../../assets/img/fundo_contato.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 600px;
